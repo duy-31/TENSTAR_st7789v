@@ -8,7 +8,7 @@ An advanced Python library for controlling ST7789V-based displays on Raspberry P
 
 - ✅ Text rendering with font size, rotation, alignment, and auto-fit
 - ✅ Multi-line and scrolling text (horizontal and vertical)
-- ✅ Animated transitions: fade, slide, zoom, wipe, dissolve, and easing
+- ⚙️ Animated transitions: fade, slide, zoom, wipe, dissolve, and easing
 - ✅ Optimized SPI communication and GPIO control
 
 ## Wiring
