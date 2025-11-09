@@ -21,7 +21,6 @@ An advanced Python library for controlling ST7789V-based displays on Raspberry P
 | DC            | GPIO25 (Pin 22)    | GPIO 25 | Data/Command select   |
 | BLK           | GPIO18 (Pin 12)    | GPIO 18 | Backlight control     |
 | CS (optional) | SPI0 CE0 (Pin 24)  | GPIO 8  | Chip Select (if used) |
-|----------------------------------------------------------------------|
 
 ## Installation
 
