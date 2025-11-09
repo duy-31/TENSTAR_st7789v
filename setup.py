@@ -5,7 +5,7 @@ setup(
     version="1.1.0",
     author="Duy-31",
     author_email="bui.duyhuan@free.fr",
-    description="Enhanced ST7789V display library for Raspberry Pi with text rendering and animation support",
+    description="an advanced Python library for controlling ST7789V-based displays on Raspberry Pi, developed for TENSTAR ROBOT display 2.4",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/duy-31/TENSTAR_st7789v",
