@@ -22,13 +22,13 @@ pip install .
 
 ## Examples
 
-examples/example.py
+python3 examples/example.py
 → Rotated and centered text display
 
-examples/example2.py
+python3 examples/example2.py
 → Dynamic font sizing and alignment
 
-examples/example_scroll.py
+python3 examples/example_scroll.py
 → Horizontal and vertical scrolling text
 
 ## Author
