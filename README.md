@@ -2,6 +2,8 @@
 
 An advanced Python library for controlling ST7789V-based displays on Raspberry Pi, developed for TENSTAR ROBOT display 2.4".
 
+<img src="./images/example.jpg" alt="example.py" width="250"/> <img src="./images/example2.jpg" alt="example2.py" width="250"/>
+
 ## Features
 
 - ✅ Text rendering with font size, rotation, alignment, and auto-fit
