@@ -1,0 +1,7 @@
+gpiozero
+spidev
+lgpio
+pigpio
+RPi.GPIO
+numpy
+Pillow

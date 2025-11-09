@@ -1,0 +1,65 @@
+Metadata-Version: 2.4
+Name: TENSTAR_st7789v
+Version: 1.1.0
+Summary: an advanced Python library for controlling ST7789V-based displays on Raspberry Pi, developed for TENSTAR ROBOT display 2.4
+Home-page: https://github.com/duy-31/TENSTAR_st7789v
+Author: Duy-31
+Author-email: Duy-31 <bui.duyhuan@free.fr>
+Project-URL: Homepage, https://github.com/duy-31/TENSTAR_st7789v
+Project-URL: Issues, https://github.com/duy-31/TENSTAR_st7789v/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: gpiozero
+Requires-Dist: spidev
+Requires-Dist: lgpio
+Requires-Dist: pigpio
+Requires-Dist: RPi.GPIO
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# TENSTAR_st7789v
+
+An advanced Python library for controlling ST7789V-based displays on Raspberry Pi, developed for TENSTAR ROBOT display 2.4"
+
+## Features
+
+- ✅ Text rendering with font size, rotation, alignment, and auto-fit
+- ✅ Multi-line and scrolling text (horizontal and vertical)
+- ✅ Animated transitions: fade, slide, zoom, wipe, dissolve, and easing
+- ✅ Optimized SPI communication and GPIO control
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/duy-31/TENSTAR_st7789v/
+cd TENSTAR_st7789v
+python -m venv venv
+source ./venv/bin/activate
+pip install .
+
+## Examples
+
+examples/example.py
+→ Rotated and centered text display
+
+examples/example2.py
+→ Dynamic font sizing and alignment
+
+examples/example_scroll.py
+→ Horizontal and vertical scrolling text
+
+## Author
+
+Duy-31
+📧 bui.duyhuan@free.fr
+
+For questions, contributions, or bug reports, please visit the Issues page.

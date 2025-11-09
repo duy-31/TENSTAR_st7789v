@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TENSTAR_st7789v"
+version = "1.1.0"
+dependencies = ['gpiozero', 'spidev', 'lgpio', 'pigpio', 'RPi.GPIO', 'numpy', 'Pillow']
+authors = [
+  { name="Duy-31", email="bui.duyhuan@free.fr" },
+]
+description = "an advanced Python library for controlling ST7789V-based displays on Raspberry Pi, developed for TENSTAR ROBOT display 2.4"
+readme = "README.md"
+license-files = ["LICENSE"]
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/duy-31/TENSTAR_st7789v"
+Issues = "https://github.com/duy-31/TENSTAR_st7789v/issues"
